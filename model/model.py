@@ -1,5 +1,5 @@
 import pickle
-import numpy as np
+# import numpy as np
 
 def predictPrice(data):
     pickled_model = pickle.load(open('model/model.pkl', 'rb'))
